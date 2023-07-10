@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My courses!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body style="background-color: whitesmoke">
+    <!-- start header-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html"><img src="images/R.png" alt="logo" height="60"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Category1</a></li>
+              <li><a class="dropdown-item" href="#">Category2</a></li>
+              <li><a class="dropdown-item" href="#">Category3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="aboutUs.html" class="nav-link active ">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link active ">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="signUp.html" class="btn btn-outline-success btn-md ">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!-- end header-->
+
+      <!-- start carousel -->
+      <div class="container w-50 mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/d.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/d.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/d.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div
+      <!-- end carousel -->
+
+   <!-- start details -->
+   <hr class="my-4 w-50 m-auto">
+   <div class="container">
+     <h2 class="mt-5 mb-3">Course name</h2>
+     <h6 class="mb-3">instructor name</h6>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </div>
+   <!-- end details -->
+
+<!-- start rating -->
+<div class="container mt-5 mb-5">
+<h3>Rate:</h3>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star"></i>
+<i class="bi bi-star"></i>
+</div>
+<!-- end rating -->
+
+<!-- start table -->
+<div class="container mb-5 w-50">
+<table class="table align-items-center">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Day</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry the Bird</td>
+      <td>Thornton</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- end table -->
+
+<!-- start buttons -->
+<div class="container d-flex justify-content-center mb-5 gap-5 ">
+  <a href="#" "><button type="button" class="btn btn-outline-success mb-5">Register now</button></a>
+    <a href="myCourses.html" "><button type="button" class="btn btn-outline-success mb-5">View my courses</button></a>
+</div>
+<!-- end buttons -->
+
+
+<!-- start footer -->
+<footer class="bg-light text-center text-lg-start bg-body-tertiary mt-5 fixed-bottom">
+  <div class="text-center p-3"">
+    © 2020 Copyright
+  </div>
+</footer>
+<!-- end footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
